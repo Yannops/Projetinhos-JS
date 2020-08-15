@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/Ex 3/main.css"/>
+    <title>Exercicio 3</title>
+</head>
+<body>
+    <header>
+        <h1>Contador</h1>
+    </header>
+    <section>    
+        <div id="msg">
+            <p>
+                <label for="ini"><strong>Início:</strong> 
+                    <input type="number" name="txtini" id="txtini" min="0"/>
+                </label>
+            </p>
+            <p>
+                <label for="fim"><strong>Fim:</strong>
+                    <input type="number" name="txtfim" id="txtfim" min="0"/>
+                </label>
+            </p>
+            <p>
+                <label for="passo"><strong>Passos:</strong>
+                    <input type="number" name="txtpasso" id="txtpasso" min="0"/>
+                </label>
+            </p>
+            <p>
+                <input type="button" value="Contar" onclick="contar()" id="button"/>
+            </p>
+            <p>
+                <input type="button" value="Limpar" onclick="limpar()" id="button" />
+            </p>
+        </div>
+        <div><strong>Contando:</strong>
+            <p id="contando">
+
+            </p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Yann Coorp</p>
+    </footer>
+    <script src="/Ex 3/script.js"></script>
+</body>
+</html>

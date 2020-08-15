@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(5, 80, 74);
+    font: normal 12pt Arial;
+}
+
+header{
+    color: white;
+    text-align: center;
+}
+
+section{
+    background: white;
+    border-radius: 10px;
+    width: 500px;
+    padding: 15px;
+    margin: auto;
+    box-shadow: 5px 5px 10px black;
+}
+
+footer{
+    font-style: italic;
+    color: white;
+    text-align: center;
+}
+
+div{
+    text-align: left;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+label, input{
+    margin-right: 110px;
+}
+
+#txtini, #txtfim{
+    width: 173px;
+    height: 21px;
+}
+
+#txtpasso{
+    width: 156px;
+    height: 21px;
+}
+
+#txtfim{
+   margin-left: 20px;
+}
+
+
+
+
+
